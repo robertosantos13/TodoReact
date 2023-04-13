@@ -17,18 +17,17 @@ cd project name
 npm install
 ```
 
+## Database Firebase
 ```
 npm instal firebase
 ```
-npm install -D tailwindcss postcss autoprefixer
-```
 
-```
 ## Configure tailwindcss - https://tailwindcss.com/docs/guides/vite
 
+```
+npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
-
 
 ### Compiles and hot-reloads for development
 ```
