@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    html {
+        font-family: "Roboto", sans-serif;
+    }
+
+    .main {
+      @apply h-screen w-screen p-4 bg-gradient-to-r from-[#a32dd2]  to-[#b792bf]  
+    }
+    .app-container {
+        @apply bg-[#b349dc] max-w-[500px] w-full m-auto rounded-md shadow-xl p-4
+    }
+
+    h3 {
+        @apply text-3xl font-bold text-center text-slate-100 p-4 mb-2
+    }
+
+    form {
+        @apply flex justify-between 
+    }
+    .app-input {
+        @apply border p-4 w-full text-xl rounded-md outline-none placeholder:text-slate-300
+    }
+
+    .app-button {
+        @apply border p-2 ml-2 bg-transparent text-stone-100 hover:bg-[#a32dd2] transition duration-150 ease-out hover:ease-out;
+    }
+
+    .app-count {
+        @apply text-center p-4 text-purple-800 font-semibold
+        
+    }
+    .app-count > span {
+        @apply text-slate-200 bg-[#810e9b] border-none px-4 py-2 rounded-full
+    }
+
+  /* Todo List */
+  .todo-li {
+    @apply flex justify-between p-4 my-4 capitalize bg-purple-200 rounded-lg
+  }
+  .li-completed {
+    @apply flex justify-between bg-purple-700 p-4 my-2 capitalize
+  }
+  .text-completed {
+    @apply ml-2 cursor-pointer line-through text-red-400
+  }
+}
+
+
+
+
