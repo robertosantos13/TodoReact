@@ -16,6 +16,8 @@ cd project name
 ```
 npm install
 ```
+
+```
 npm instal firebase
 ```
 npm install -D tailwindcss postcss autoprefixer
