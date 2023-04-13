@@ -22,7 +22,9 @@ npm install
 npm instal firebase
 ```
 
-## Configure tailwindcss - <h6> https://tailwindcss.com/docs/guides/vite </h6>
+## Configure tailwindcss 
+
+Link: <h6> https://tailwindcss.com/docs/guides/vite </h6>
 
 ```
 npm install -D tailwindcss postcss autoprefixer
